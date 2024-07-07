@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 100px;
+  margin: 0px 100px;
 }
 .navigation ul {
   list-style: none;
@@ -23,6 +23,7 @@
 .navigation .links li {
   margin-right: 50px;
   font-size: 25px;
+  margin-top: 68px;
 }
 .name {
   font-size: 50px;
@@ -37,9 +38,10 @@ span {
   color: white;
   font-weight: bold;
   border: 10px 15px solid #fd6e0a;
-  padding: 10px 10px;
+  padding: 18px 35px;
   border-radius: 5px;
   border: none;
+  margin: -10px;
 }
 .banner {
   display: flex;
@@ -92,4 +94,14 @@ span {
 .about-me-container .info {
   font-weight: bold;
   color: #474747;
+}
+.banner-content .btn {
+  margin-right: 30px;
+  padding: 20px 24px;
+}
+.banner-content .two {
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
+  font-size: 20px;
 }
