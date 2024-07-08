@@ -66,14 +66,17 @@ span {
 .about-me {
   background-color: #fff8f3;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 130px 230px;
   padding: 131px 157px;
+  display: flex;
+  justify-content: center;
 }
 .about-me-container {
   background-color: #ffffff;
   text-align: center;
   padding: 5px 5px;
   border: 1px solid black;
+  width: 827px;
 }
 .about-me-container h4 {
   font-size: 35px;
@@ -108,4 +111,51 @@ span {
 }
 .btn:hover {
   cursor: pointer;
+}
+.what-i-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.what-i-do-description {
+  max-width: 909px;
+  text-align: center;
+  margin-top: 130px;
+}
+.what-i-do-description > h4 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.what-i-do-description > p {
+  font-size: 18;
+  color: #757575;
+}
+.skills-contain {
+  display: flex;
+  gap: 24px;
+}
+.technologies {
+  text-align: left;
+  width: 267px;
+  height: 377px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+}
+.technologies h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+}
+.technologies p {
+  font-size: 16px;
+  color: #757575;
+}
+.skills-tittle {
+  width: 203px;
+  height: 243px;
 }
