@@ -65,8 +65,9 @@ span {
 }
 .about-me {
   background-color: #fff8f3;
-  max-width: 1140px;
-  margin: 130px 230px;
+  width: 1140px;
+  margin: 0px auto;
+  margin-top: 130px;
   padding: 131px 157px;
   display: flex;
   justify-content: center;
@@ -117,7 +118,6 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 130px;
 }
 .what-i-do-description {
   max-width: 909px;
@@ -132,6 +132,7 @@ span {
 .what-i-do-description > p {
   font-size: 18;
   color: #757575;
+  margin-bottom: 50px;
 }
 .skills-contain {
   display: flex;
@@ -144,7 +145,7 @@ span {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .technologies h4 {
   font-size: 20px;
