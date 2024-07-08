@@ -83,6 +83,7 @@ span {
   color: #757575;
   font-size: 18px;
   line-height: 30px;
+  text-align: center;
 }
 .about-me-container .label {
   display: flex;
@@ -104,4 +105,7 @@ span {
   background-color: #fff8f3;
   border: 1px solid #fd6e0a;
   font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
 }
