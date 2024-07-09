@@ -5,8 +5,8 @@
 }
 .head {
   background-color: #fff8f3;
-  background-image: url(../portfolio-resources/images/header_bg.png),
-    url(../portfolio-resources/images/developer.png);
+  background-image: url(images/header_bg.png),
+    url(portfolio-resources/images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, top left;
 }
